@@ -1,0 +1,6 @@
+experiment : "T5"
+display_name : "T5-base_settings"
+base_model_ckpt : 'mrmoor/cti-t5-RE-NYT'
+local_dataset : 0
+dataset_name : "mrmoor/cyber-threat-intelligence-splited"
+epochs : 60
